@@ -35,14 +35,16 @@ You'll need a list of your species of interest. This can be in Excel, CSV, or ot
 
 The video tutorial starts from Step 3.
 
+![Step by step .GIF](https://i.imgur.com/QLVoWLo.mp4)
+
 1. Request an API token from here: [https://apiv3.iucnredlist.org/api/v3/token](https://apiv3.iucnredlist.org/api/v3/token)
 2. Install OpenRefine from here: [http://openrefine.org/](http://openrefine.org/)
 3. Format your species list so that only the binomial species name (no authorship or sub-species) are in a column called scientificName
 4. Open OpenRefine, and start a new Project by importing your species list
 5. Open the Undo/Redo tab
 6. Click the Apply button
-7. Copy and paste the code below into the window that appears. **Do not click OK until you have completed Step 8**.
-8. Replace YOUR_TOKEN_HERE in line 12 with the token provided in Step 1, and click OK.
+7. Copy and paste the code below into the window that appears. **Do not click Perform Operations until you have completed Step 8**.
+8. Replace YOUR_TOKEN_HERE in line 12 with the token provided in Step 1, and click Perform Operations.
 ```markdown
 [
   {
