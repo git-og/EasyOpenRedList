@@ -1,4 +1,4 @@
-# How to get the IUCN Red List category and other data for a list of species
+# How to get the IUCN Red List category for a list of species
 
 We often have a list of species - a checklist, or a set of species of interest for a project - for which we want to know the IUCN Red List status. Manually searching the IUCN Red List website species by species would be slow, and practically impossible for a list longer than 1,000 species.
 
@@ -22,7 +22,7 @@ The API for the IUCN Red List is like a backdoor to the IUCN data, used by inter
 
 You'll need a API token (like a personal password) to use the API. Request a token from here: https://apiv3.iucnredlist.org/api/v3/token
 
-More documentation on the API is available here: https://apiv3.iucnredlist.org/api/v3/docs
+More documentation on the API is available here: [](https://apiv3.iucnredlist.org/api/v3/docs)
 
 ### Species list
 
@@ -40,7 +40,7 @@ The video tutorial starts from Step 3.
 5. Open the Undo/Redo tab
 6. Click the Apply button
 7. Copy and paste the code below into the window that appears. **Do not click OK until you have completed Step 8**.
-8. Replace YOUR_TOKEN_HERE with the token provided in Step 1, and click OK.
+8. Replace YOUR_TOKEN_HERE in line 12 with the token provided in Step 1, and click OK.
 ```markdown
 [
   {
