@@ -22,7 +22,7 @@ The API for the IUCN Red List is like a backdoor to the IUCN data, used by inter
 
 You'll need a API token (like a personal password) to use the API. Request a token from here: https://apiv3.iucnredlist.org/api/v3/token
 
-More documentation on the API is available here: [](https://apiv3.iucnredlist.org/api/v3/docs)
+More documentation on the API is available here: [https://apiv3.iucnredlist.org/api/v3/docs](https://apiv3.iucnredlist.org/api/v3/docs)
 
 ### Species list
 
