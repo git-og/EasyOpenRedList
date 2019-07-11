@@ -22,15 +22,15 @@ OpenRefine (formerly Google Refine) is a powerful tool for working with messy da
 
 OpenRefine is available in English, Chinese, Spanish, French, Russian, Portuguese (Brazil), German, Japanese, Italian, Hungarian, Hebrew, Filipino, Cebuano, Tagalog.
 
-Guides for using OpenRefine are available here: [http://openrefine.org/documentation.html](http://openrefine.org/documentation.html)
+Guides for using OpenRefine are available here: [http://openrefine.org/documentation.html](http://openrefine.org/documentation.html).
 
-Download from: [http://openrefine.org/](http://openrefine.org/)
+Download from: [http://openrefine.org/](http://openrefine.org/).
 
 ### IUCN Red List API
 
 The API for the IUCN Red List is like a backdoor to the IUCN database, used by internet-connected computers to make a large number of requests to the Red List automatically. 
 
-You'll need a API token (like a personal password) to use the API. Request a token from here: [https://apiv3.iucnredlist.org/api/v3/token](https://apiv3.iucnredlist.org/api/v3/token)
+You'll need a API token (like a personal password) to use the API. Request a token from here: [https://apiv3.iucnredlist.org/api/v3/token](https://apiv3.iucnredlist.org/api/v3/token).
 
 More documentation on the API is available [https://apiv3.iucnredlist.org/api/v3/docs](https://apiv3.iucnredlist.org/api/v3/docs).
 
@@ -40,17 +40,17 @@ You'll need a list of your species of interest. This can be in Excel, CSV, or ot
 
 ## Step by step instructions
 
-The .GIF tutorial below starts from Step 3.
+The .GIF tutorial below starts from Step 3. A video version is available on Youtube here: [https://youtu.be/TaOcM_TV9q8] (https://youtu.be/TaOcM_TV9q8).
 
 ![Step by step .GIF](https://github.com/git-og/EasyOpenRedList/blob/master/EasyOpenRedList_tut.gif?raw=true)
 
 
-1. Request an API token from here: [https://apiv3.iucnredlist.org/api/v3/token](https://apiv3.iucnredlist.org/api/v3/token)
-2. Install OpenRefine from here: [http://openrefine.org/](http://openrefine.org/)
-3. Format your species list so that only the binomial species name (no authorship or sub-species) are in a column called scientificName
-4. Open OpenRefine, and start a new Project by importing your species list
-5. Open the Undo/Redo tab
-6. Click the Apply... button
+1. Request an API token from here: [https://apiv3.iucnredlist.org/api/v3/token](https://apiv3.iucnredlist.org/api/v3/token).
+2. Install OpenRefine from here: [http://openrefine.org/](http://openrefine.org/).
+3. Format your species list so that only the binomial species name (no authorship or sub-species) are in a column called scientificName.
+4. Open OpenRefine, and start a new Project by importing your species list.
+5. Open the Undo/Redo tab.
+6. Click the Apply... button.
 7. Copy and paste the code below into the window that appears. **Do not click Perform Operations until you have completed Step 8**.
 8. Replace YOUR_TOKEN_HERE in line 12 with the token provided in Step 1, and click Perform Operations.
 ```markdown
@@ -219,4 +219,4 @@ The .GIF tutorial below starts from Step 3.
 8. Let the code run for a while. This may take some time with long lists, or on slow internet connections. The script is querying the IUCN Red List for every species in your list, one by one. There is a default delay of 2 seconds to avoid overloading the API with requests and avoid temporary blocks so the minimum for 10 species is 20 seconds, for 100 species is 3 minutes, and for 1000 species about half an hour. 
 9. Export the results by clicking Export, and choosing your preferred file format.
 
-For species with no IUCN Red List entry, the columns other than your scientificName column will be blank. Your species names must exactly match the IUCN species name. If there are type-os, or if your taxonomy is different, the species will not match. You can use the GBIF Species Matching tool to help clean your species names, available here: [https://www.gbif.org/tools/species-lookup](https://www.gbif.org/tools/species-lookup). A similar tool called NomenMatch, which allows more choice of taxonomic backbone is available from the taiBIF node here: [http://match.taibif.tw/index.html](http://match.taibif.tw/index.html)
+For species with no IUCN Red List entry, the columns other than your scientificName column will be blank. Your species names must exactly match the IUCN species name. If there are type-os, or if your taxonomy is different, the species will not match. You can use the GBIF Species Matching tool to help clean your species names, available here: [https://www.gbif.org/tools/species-lookup](https://www.gbif.org/tools/species-lookup). A similar tool called NomenMatch, which allows more choice of taxonomic backbone is available from the taiBIF node here: [http://match.taibif.tw/index.html](http://match.taibif.tw/index.html).
