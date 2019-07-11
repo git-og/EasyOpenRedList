@@ -55,7 +55,7 @@ The video tutorial starts from Step 3.
     "baseColumnName": "scientificName",
     "urlExpression": "grel:\"http://apiv3.iucnredlist.org/api/v3/species/\"+escape(value, 'html')+\"?token=YOUR_TOKEN_HERE\"",
     "onError": "set-to-blank",
-    "delay": 2500,
+    "delay": 2000,
     "cacheResponses": true,
     "httpHeadersJson": [
       {
@@ -204,7 +204,7 @@ The video tutorial starts from Step 3.
   }
 ]
 ````
-8. Let the code run for a while. This may take some time with long lists, or on slow internet connections. The script is querying the IUCN Red List for every species in your list, one by one.
+8. Let the code run for a while. This may take some time with long lists, or on slow internet connections. The script is querying the IUCN Red List for every species in your list, one by one. There is a default delay of 2 seconds to avoid overloading the API with requests and avoid temporary blocks.
 9. Export the results by clicking Export, and choosing your preferred file format.
 
 For species with no IUCN Red List entry, the columns other than your scientificName column will be blank. Your species names must exactly match the IUCN species name. If there are type-os, or if your taxonomy is different, the species will not match. You can use the GBIF Species Matching tool to help clean your species names, available here: [https://www.gbif.org/tools/species-lookup](https://www.gbif.org/tools/species-lookup). A similar tool called NomenMatch, which allows more choice of taxonomic backbone is available from the taiBIF node here: [http://match.taibif.tw/index.html](http://match.taibif.tw/index.html)
