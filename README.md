@@ -37,7 +37,6 @@ The video tutorial starts from Step 3.
 
 ![Step by step .GIF](https://github.com/git-og/EasyOpenRedList/blob/master/EasyOpenRedList_tut.gif?raw=true)
 
-![Step by step 2.GIF](https://github.com/git-og/EasyOpenRedList/blob/master/EasyOpenRedList_tut.gif)
 
 1. Request an API token from here: [https://apiv3.iucnredlist.org/api/v3/token](https://apiv3.iucnredlist.org/api/v3/token)
 2. Install OpenRefine from here: [http://openrefine.org/](http://openrefine.org/)
