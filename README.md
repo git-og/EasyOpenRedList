@@ -1,5 +1,7 @@
 # How to get the IUCN Red List category and other data for a list of species
 
+![ExampleImage]({{ site.url }}/EasyOpenRedList.png)
+
 We often have a list of species - a checklist, or a set of species of interest for a project - for which we want to know the IUCN Red List status. Manually searching the IUCN Red List website species by species would be slow, and practically impossible for a list longer than 1,000 species.
 
 This guide shows you how to use the free software OpenRefine to query the IUCN RedList API, using pre-written code that should work for any clean list of species names.
