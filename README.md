@@ -36,11 +36,11 @@ The video tutorial starts from Step 3.
 1. Request an API token from here: https://apiv3.iucnredlist.org/api/v3/token
 2. Install OpenRefine from here: http://openrefine.org/
 3. Format your species list so that only the binomial species name (no authorship or sub-species) are in a column called scientificName
-3. Open OpenRefine, and start a new Project by importing your species list
-4. Open the Undo/Redo tab
-5. Click the Apply button
-6. Copy and paste the code below into the window that appears. Do not click OK until you have completed Step 7.
-**7. Replace YOUR_TOKEN_HERE with the token provided in Step 1, and click OK.**
+4. Open OpenRefine, and start a new Project by importing your species list
+5. Open the Undo/Redo tab
+6. Click the Apply button
+7. Copy and paste the code below into the window that appears. **Do not click OK until you have completed Step 8**.
+8. Replace YOUR_TOKEN_HERE with the token provided in Step 1, and click OK.
 ```markdown
 [
   {
@@ -207,4 +207,4 @@ The video tutorial starts from Step 3.
 8. Let the code run for a while. This may take some time with long lists, or on slow internet connections. The script is querying the IUCN Red List for every species in your list, one by one.
 9. Export the results by clicking Export, and choosing your preferred file format.
 
-For species with no IUCN Red List entry, the columns other than your scientificName column will be blank. Your species names must exactly match the IUCN species name. If there are type-os, or if your taxonomy is different, the species will not match. You can use the GBIF Species Matching tool to help clean your species names, available here: https://www.gbif.org/tools/species-lookup. A similar tool called NomenMatch, which allows more choice of taxonomic backbone is available from the taiBIF node here: http://match.taibif.tw/index.html
+For species with no IUCN Red List entry, the columns other than your scientificName column will be blank. Your species names must exactly match the IUCN species name. If there are type-os, or if your taxonomy is different, the species will not match. You can use the GBIF Species Matching tool to help clean your species names, available here: https://www.gbif.org/tools/species-lookup. A similar tool called NomenMatch, which allows more choice of taxonomic backbone is available from the taiBIF node here: <a href="http://match.taibif.tw/index.html">
