@@ -42,7 +42,6 @@ The video tutorial starts from Step 3.
 6. Copy and paste the code below into the window that appears. Do not click OK until you have completed Step 7.
 **7. Replace YOUR_TOKEN_HERE with the token provided in Step 1, and click OK.**
 ```markdown
-`
 [
   {
     "op": "core/column-addition-by-fetching-urls",
@@ -204,7 +203,6 @@ The video tutorial starts from Step 3.
     "columnName": "RedListResult"
   }
 ]
-`
 ````
 8. Let the code run for a while. This may take some time with long lists, or on slow internet connections. The script is querying the IUCN Red List for every species in your list, one by one.
 9. Export the results by clicking Export, and choosing your preferred file format.
