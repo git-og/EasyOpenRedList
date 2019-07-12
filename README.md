@@ -12,7 +12,7 @@
 
 ![Example image](https://i.imgur.com/ru9Xwx4.png)
 
-We often have a list of species - a checklist, or a set of species of interest for a project - for which we want to know the IUCN Red List category: Critically Endangered, Vulnerable, Least Concern etc. Manually searching the IUCN Red List website species by species would be slow, and practically impossible for a list longer than 1,000 species.
+We often have a list of species - a checklist, or a set of species of interest for a project - for which we want to know the IUCN Red List category: Critically Endangered, Vulnerable, Least Concern etc. Manually searching the IUCN Red List website species by species would be slow for lists longer than 20 species, and practically impossible for a list longer than 1,000 species.
 
 This guide shows you how to use the free software OpenRefine to query the IUCN RedList API, using pre-written code that should work for any clean list of species names.
 
