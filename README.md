@@ -14,7 +14,7 @@
 
 We often have a list of species - a checklist, or a set of species of interest for a project - for which we want to know the IUCN Red List category: Critically Endangered, Vulnerable, Least Concern etc. Manually searching the IUCN Red List website species by species would be slow for lists longer than 20 species, and practically impossible for a list longer than 1,000 species.
 
-This guide shows you how to use the free software OpenRefine to query the IUCN RedList API, using pre-written code that works for any clean list of species names.
+This guide shows you how to automatically return the Red List category, along with a number of other useful results, from the IUCN database using the free software OpenRefine to query the IUCN RedList with pre-written code that works for any clean list of species scientific names.
 
 ## Requirements
 
@@ -30,9 +30,9 @@ Download from: [http://openrefine.org/](http://openrefine.org/).
 
 ### IUCN Red List API
 
-The API for the IUCN Red List is like a backdoor to the IUCN database, used by internet-connected computers to make a large number of requests to the Red List automatically. 
+To access the IUCN Red List database, we use an API; like a backdoor to the IUCN database, used by internet-connected computers to make a large number of requests to the Red List automatically. 
 
-You'll need a API token (like a personal password) to use the API. Request a token from here: [https://apiv3.iucnredlist.org/api/v3/token](https://apiv3.iucnredlist.org/api/v3/token).
+To use the API, you'll need a API token (like a personal password). Request a token from here: [https://apiv3.iucnredlist.org/api/v3/token](https://apiv3.iucnredlist.org/api/v3/token).
 
 More documentation on the API is available [https://apiv3.iucnredlist.org/api/v3/docs](https://apiv3.iucnredlist.org/api/v3/docs).
 
