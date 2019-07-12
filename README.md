@@ -42,7 +42,7 @@ You'll need a list of your species of interest. This can be in Excel, CSV, or ot
 
 ## Step by step instructions
 
-The .GIF tutorial below starts from Step 3. A video version is available on Youtube here: [https://youtu.be/TaOcM_TV9q8] (https://youtu.be/TaOcM_TV9q8/).
+The .GIF tutorial below starts from Step 3. A video version is available on Youtube here: [https://youtu.be/TaOcM_TV9q8](https://youtu.be/TaOcM_TV9q8/).
 
 ![Step by step .GIF](https://github.com/git-og/EasyOpenRedList/blob/master/EasyOpenRedList_tut.gif?raw=true)
 
