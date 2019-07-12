@@ -14,7 +14,9 @@
 
 We often have a list of species - a checklist, or a set of species of interest for a project - for which we want to know the IUCN Red List category: Critically Endangered, Vulnerable, Least Concern etc. Manually searching the IUCN Red List website species by species would be slow for lists longer than 20 species, and practically impossible for a list longer than 1,000 species.
 
-This guide shows you how to use the free software OpenRefine to query the IUCN RedList API, using pre-written code that should work for any clean list of species names.
+This guide shows you how to use the free software OpenRefine to query the IUCN RedList API, using pre-written code that works for any clean list of species names.
+
+## Requirements
 
 ### Open Refine
 
@@ -40,7 +42,7 @@ You'll need a list of your species of interest. This can be in Excel, CSV, or ot
 
 ## Step by step instructions
 
-The .GIF tutorial below starts from Step 3. A video version is available on Youtube here: [https://youtu.be/TaOcM_TV9q8] (https://youtu.be/TaOcM_TV9q8).
+The .GIF tutorial below starts from Step 3. A video version is available on Youtube here: [https://youtu.be/TaOcM_TV9q8] (https://youtu.be/TaOcM_TV9q8/).
 
 ![Step by step .GIF](https://github.com/git-og/EasyOpenRedList/blob/master/EasyOpenRedList_tut.gif?raw=true)
 
@@ -48,11 +50,11 @@ The .GIF tutorial below starts from Step 3. A video version is available on Yout
 1. Request an API token from here: [https://apiv3.iucnredlist.org/api/v3/token](https://apiv3.iucnredlist.org/api/v3/token).
 2. Install OpenRefine from here: [http://openrefine.org/](http://openrefine.org/).
 3. Format your species list so that only the binomial species name (no authorship or sub-species) are in a column called scientificName.
-4. Open OpenRefine, and start a new Project by importing your species list.
+4. Open OpenRefine, and create a new Project by importing your species list.
 5. Open the Undo/Redo tab.
 6. Click the Apply... button.
 7. Copy and paste the code below into the window that appears. **Do not click Perform Operations until you have completed Step 8**.
-8. Replace YOUR_TOKEN_HERE in line 12 with the token provided in Step 1, and click Perform Operations.
+8. Replace YOUR_TOKEN_HERE on line 12 (the line that starts with "urlExpression":) of the code with the token provided in Step 1, and click Perform Operations.
 ```markdown
 [
   {
