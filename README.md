@@ -47,7 +47,7 @@ The .GIF tutorial below starts from Step 3. A video version is available on Yout
 ![Step by step .GIF](https://github.com/git-og/EasyOpenRedList/blob/master/EasyOpenRedList_tut.gif?raw=true)
 
 
-1. Request an API token from here: [https://apiv3.iucnredlist.org/api/v3/token](https://apiv3.iucnredlist.org/api/v3/token). See IUCN Red List API section above, and read the Terms of Use.
+1. Request an API token from here: [https://apiv3.iucnredlist.org/api/v3/token](https://apiv3.iucnredlist.org/api/v3/token). See IUCN Red List API section above, and read the [IUCN Red List Terms of Usage](https://www.iucnredlist.org/terms/terms-of-use), and the [API Usage guidelines](https://apiv3.iucnredlist.org/about)
 2. Install OpenRefine from here: [http://openrefine.org/](http://openrefine.org/).
 3. Format your species list so that only the binomial species name (no authorship or sub-species) are in a column called scientificName.
 4. Open OpenRefine, and create a new Project by importing your species list.
