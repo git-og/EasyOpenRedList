@@ -69,7 +69,7 @@ The .GIF tutorial below starts from Step 3. A video version is available on Yout
     "baseColumnName": "scientificName",
     "urlExpression": "grel:\"http://apiv3.iucnredlist.org/api/v3/species/\"+escape(value, 'html')+\"?token=YOUR_TOKEN_HERE\"",
     "onError": "set-to-blank",
-    "delay": 2000,
+    "delay": 2500,
     "cacheResponses": true,
     "httpHeadersJson": [
       {
