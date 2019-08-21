@@ -30,7 +30,7 @@ Download from: [http://openrefine.org/](http://openrefine.org/).
 
 ### IUCN Red List API
 
-To access the IUCN Red List database, we use an API; like a backdoor to the IUCN database, used by internet-connected computers to make a large number of requests to the Red List automatically. 
+To access the IUCN Red List database, we use an API; like a backdoor to the IUCN database, used by internet-connected computers to make a large number of requests to the Red List automatically. **Before using this process, and before requesting an API token, please read the [IUCN Red List Terms of Usage](https://www.iucnredlist.org/terms/terms-of-use), and the [API Usage guidelines](https://apiv3.iucnredlist.org/about) to ensure your usage is compliant and does not cause the IUCN team any problems.**  
 
 To use the API, you'll need a API token (like a personal password). Request a token from here: [https://apiv3.iucnredlist.org/api/v3/token](https://apiv3.iucnredlist.org/api/v3/token).
 
