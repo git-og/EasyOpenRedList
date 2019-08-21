@@ -32,7 +32,7 @@ Download from: [http://openrefine.org/](http://openrefine.org/).
 
 To access the IUCN Red List database, we use an API; like a backdoor to the IUCN database, used by internet-connected computers to make a large number of requests to the Red List automatically. **Before using this process, and before requesting an API token, please read the [IUCN Red List Terms of Usage](https://www.iucnredlist.org/terms/terms-of-use), and the [API Usage guidelines](https://apiv3.iucnredlist.org/about) to ensure your usage is compliant and does not cause the IUCN team any problems.**  
 
-To use the API, you'll need a API token (like a personal password). Request a token from here: [https://apiv3.iucnredlist.org/api/v3/token](https://apiv3.iucnredlist.org/api/v3/token).
+To use the API, you'll need a API token (like a personal password). Request a token from here: [https://apiv3.iucnredlist.org/api/v3/token](https://apiv3.iucnredlist.org/api/v3/token). Please be clear in your token request form, especially in the **Reason for API use** field. You can include a link to this page to help explain, but you must also include your own purpose, estimate of the number of calls (which in this case is the number of species), how regularly you will be repeating the process, and if applying from a large organisation, include that this is for internal use.
 
 More documentation on the API is available [https://apiv3.iucnredlist.org/api/v3/docs](https://apiv3.iucnredlist.org/api/v3/docs).
 
