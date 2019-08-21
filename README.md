@@ -38,7 +38,7 @@ More documentation on the API is available [https://apiv3.iucnredlist.org/api/v3
 
 ### Species list
 
-You'll need a list of your species of interest. This can be in Excel, CSV, or other standard formats.
+You'll need a list of your species of interest. This can be in Excel, CSV, or other standard formats. We will only be using the scientific name, which should be in a column called scientificName (this is case sensitive). Your species names must exactly match the IUCN species name. If there are type-os, or if your taxonomy is different, the species will not match. You can use the GBIF Species Matching tool to help clean your species names, available here: [https://www.gbif.org/tools/species-lookup](https://www.gbif.org/tools/species-lookup). A similar tool called NomenMatch, which allows more choice of taxonomic backbone is available from the taiBIF node here: [http://match.taibif.tw/index.html](http://match.taibif.tw/index.html). 
 
 ## Step by step instructions
 
@@ -221,4 +221,4 @@ The .GIF tutorial below starts from Step 3. A video version is available on Yout
 8. Let the code run for a while. This may take some time with long lists, or on slow internet connections. The script is querying the IUCN Red List for every species in your list, one by one. There is a default delay of 2 seconds to avoid overloading the API with requests and avoid temporary blocks so the minimum for 10 species is 20 seconds, for 100 species is 3 minutes, and for 1000 species about half an hour. 
 9. Export the results by clicking Export, and choosing your preferred file format.
 
-For species with no IUCN Red List entry, the columns other than your scientificName column will be blank. Your species names must exactly match the IUCN species name. If there are type-os, or if your taxonomy is different, the species will not match. You can use the GBIF Species Matching tool to help clean your species names, available here: [https://www.gbif.org/tools/species-lookup](https://www.gbif.org/tools/species-lookup). A similar tool called NomenMatch, which allows more choice of taxonomic backbone is available from the taiBIF node here: [http://match.taibif.tw/index.html](http://match.taibif.tw/index.html).
+For species with no IUCN Red List entry, the columns other than your scientificName column will be blank. 
