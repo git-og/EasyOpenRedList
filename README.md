@@ -59,7 +59,7 @@ The .GIF tutorial below starts from Step 3. A video version is available on Yout
 [
   {
     "op": "core/column-addition-by-fetching-urls",
-    "description": "Create column RedListAPI at index 1 by fetching URLs based on column scientificName using expression grel:\"http://apiv3.iucnredlist.org/api/v3/species/\"+escape(value, 'html')+\"?token=94c54470dc7cf2360c58f311683616dfabd4fa35526bcae8670e65b11a4e7357\"",
+    "description": "Create column RedListAPI at index 1 by fetching URLs based on column scientificName using expression grel:\"http://apiv3.iucnredlist.org/api/v3/species/\"+escape(value, 'html')+\"?token=YOUR_TOKEN_HERE\"",
     "engineConfig": {
       "facets": [],
       "mode": "row-based"
